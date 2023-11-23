@@ -1,0 +1,24 @@
+﻿<Window x:Class="E_Restauracja.ManagerMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:E_Restauracja"
+        mc:Ignorable="d"
+        Title="ManagerMenu" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    <Border Background="BlanchedAlmond" CornerRadius="5">
+        
+            <Grid>
+            <Rectangle RadiusX="13" RadiusY="16"   Grid.ColumnSpan="8" Grid.RowSpan="8" Margin="5,5,5,5" Opacity="0.6">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                        <GradientStop Color="#282254" Offset="0"/>
+                        <GradientStop Color="#6a67fe" Offset="0.4"/>
+                        <GradientStop Color="#fbfe67" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        
+    </Border>
+</Window>
